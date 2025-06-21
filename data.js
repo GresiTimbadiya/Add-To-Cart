@@ -577,7 +577,7 @@ const purseList = () => {
     let tbl = "";
     purse.map((val) => {
         tbl += `
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 col-sm-9">
                     <div class="card" align="left">
                         <img src="${val.image}" class="card-img-top p-4 img-fluid" style="height: 230px;cursor: pointer;">
                         <div class="card-body text-center" style="background-color:rgba(159, 140, 118, 0.14);">
@@ -598,7 +598,7 @@ const earringsList = () => {
     let tbl = "";
     Earrings.map((val) => {
         tbl += `
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 col-sm-8">
                     <div class="card" align="left">
                         <img src="${val.image}" class="card-img-top p-4 py-5 img-fluid" style="height: 230px;cursor: pointer;">
                         <div class="card-body text-center" style="background-color:rgba(159, 140, 118, 0.14);">
@@ -618,7 +618,7 @@ const ringList = () => {
     let tbl = "";
     Rings.map((val) => {
         tbl += `
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 col-sm-8">
                     <div class="card" align="left">
                         <img src="${val.image}" class="card-img-top p-4 px-5 img-fluid" style="height: 230px;cursor: pointer;">
                         <div class="card-body text-center" style="background-color:rgba(159, 140, 118, 0.14);">
@@ -638,7 +638,7 @@ const watchList = () => {
     let tbl = "";
     Watches.map((val) => {
         tbl += `
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 col-sm-8">
                     <div class="card" align="left">
                         <img src="${val.image}" class="card-img-top p-4 px-5 img-fluid" style="height: 230px;cursor: pointer;">
                         <div class="card-body text-center" style="background-color:rgba(159, 140, 118, 0.14);">
@@ -658,7 +658,7 @@ const perfumeList = () => {
     let tbl = "";
     Perfumes.map((val) => {
         tbl += `
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 col-sm-8">
                     <div class="card" align="left">
                         <img src="${val.image}" class="card-img-top p-4 px-5 img-fluid" style="height: 230px;cursor: pointer;">
                         <div class="card-body text-center" style="background-color:rgba(159, 140, 118, 0.14);">
@@ -678,7 +678,7 @@ const braceletList = () => {
     let tbl = "";
     Bracelet.map((val) => {
         tbl += `
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 col-sm-8">
                     <div class="card" align="left">
                         <img src="${val.image}" class="card-img-top p-4 px-5 img-fluid" style="height: 230px;cursor: pointer;">
                         <div class="card-body text-center" style="background-color:rgba(159, 140, 118, 0.14);">
@@ -698,7 +698,7 @@ const earbudsList = () => {
     let tbl = "";
     Earbuds.map((val) => {
         tbl += `
-                <div class="col-md-3 p-2">
+                <div class="col-md-3 p-2 col-sm-8">
                     <div class="card" align="left">
                         <img src="${val.image}" class="card-img-top p-4 px-5 img-fluid" style="height: 230px;cursor: pointer;">
                         <div class="card-body text-center" style="background-color:rgba(159, 140, 118, 0.14);">
